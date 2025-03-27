@@ -21,7 +21,7 @@ export class AppComponent {
     price: 5000  
   };
   discountedPrice: number = this.product.price;
-  array: string[] = ["jouf1", "ahmad2", "hawas3", "alouthah4"];
+  array: string[] = ["JO", "JA"];
 
   checkcoupons() {
     if (this.array.includes(this.couponcode)) {
